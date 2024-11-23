@@ -1,0 +1,57 @@
+.hero{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* color: rgb(194, 51, 51); */
+    /* color: #2e2e2e; */
+    background: 
+      linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), 
+      url(../../img/hero3.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh;
+    padding: 15px;
+  }
+  .hero__card{
+      /* box-shadow: 0 0 8px rgba(0, 0, 0, .2) inset; */
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+  }
+  .hero__h1{
+    font-size: 20px;
+    /* font-weight: 600; */
+  }
+  .hero__p{
+    font-size: 14px;
+    /* max-width: 52%;
+    margin-left: auto;
+    margin-right: auto; */
+  }
+  .hero__btn {
+      padding: 10px 24px!important;
+    border-radius: 0.2rem;
+      color: #fff!important;
+      background-color: rgb(194, 51, 51)!important;
+    text-decoration: none;
+  }
+
+  /* For Desktop */
+  @media only screen and (min-width: 768px)
+  {
+
+  }
+
+  @media only screen and (min-width: 600px)
+  {
+
+  }
