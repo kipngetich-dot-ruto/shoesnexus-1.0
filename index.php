@@ -4,8 +4,8 @@ require_once "./partials/navbar.php";
 
 ?>
 <main class="main">
-    <?php require_once "./partials/hero.php"?>
-    <div class="product_background">
+    <div class="main_background">
+        <?php require_once "./partials/hero.php"?>
         <?php require_once "./partials/productCard.php"?>
     </div>
 </main>

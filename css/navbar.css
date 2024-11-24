@@ -151,7 +151,12 @@
 .desktop_btn .icon{
     font-size: 22px;
 }
+/* for smaller devices */
+@media only screen and (min-width: 600px)
+{
 
+}
+/* For Desktops  */
 @media only screen and (min-width:768px) {
     .mobile_nav{
         display: none;

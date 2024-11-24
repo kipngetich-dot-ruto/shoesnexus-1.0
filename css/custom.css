@@ -15,9 +15,28 @@ a{
 form{
     margin: 0!important;
 }
+.main_background{
+    background: #d6d6ce;
+}
+footer{
+    padding: 30px;
+    background: rgb(15, 14, 14, 0.7);
+    color: #fff;
+}
+@media only screen and (min-width: 600px)
+{
 
-.product_background{
-    background: rgb(0, 0, 0, 0.5);
-    margin: 0;
-    padding: 0;
+}
+@media only screen and (min-width: 768px) 
+{
+    .main_background{
+        margin: 0;
+        padding: 0 0 20px 0;
+        background: 
+          linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), 
+          url(../img/hero3.jpg) center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
 }
