@@ -12,6 +12,7 @@
     /* background-attachment: fixed; */
     height: 35vh;
     padding: 15px;
+    margin:0;
   }
   .hero__card{
       /* box-shadow: 0 0 8px rgba(0, 0, 0, .2) inset; */
@@ -35,10 +36,10 @@
     font-size: 14px;
   }
   .hero__btn {
-      padding: 10px 24px!important;
+    padding: 10px 24px!important;
     border-radius: 0.2rem;
-      color: #fff!important;
-      background-color: rgb(194, 51, 51)!important;
+    color: #fff!important;
+    background-color: rgb(194, 51, 51)!important;
     text-decoration: none;
   }
 
@@ -48,7 +49,7 @@
     .hero{
         align-items: center;
         text-align: center;
-        height: 70vh;
+        height: 57vh;
         background-attachment: fixed;
     }
     .hero__h1{

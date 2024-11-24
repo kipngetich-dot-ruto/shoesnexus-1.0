@@ -6,7 +6,7 @@
                 <button type="button" class="toggle_btn" onclick="ToggleMenu()">
                     <i class="fa fa-bars" id="toggle_icon" aria-hidden="true"></i>
                 </button>
-                <a  class="navbrand" href="/shoesnexus">
+                <a  class="navbrand" href="/">
                     <span>Shoes</span>Nexus
                 </a>
             </div>
@@ -55,7 +55,7 @@
 
     <!-- Desktop Navigation -->
      <div class="desktop_nav_sn">
-        <a class="navbrand" href="/shoesnexus2">
+        <a class="navbrand" href="/">
             <span>Shoes</span>Nexus
         </a>
         <div class="desktop_menu_sn">
