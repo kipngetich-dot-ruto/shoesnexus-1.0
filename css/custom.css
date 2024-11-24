@@ -15,3 +15,9 @@ a{
 form{
     margin: 0!important;
 }
+
+.product_background{
+    background: rgb(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
