@@ -2,6 +2,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box!important;
 }
+html{
+    scroll-behavior: smooth;
+}
 ul,li{
     list-style: none!important;
     margin: 0!important;
@@ -31,9 +34,8 @@ footer{
 {
     .main_background{
         margin: 0;
-        padding: 0 0 20px 0;
+        padding: 10px 0 20px 0;
         background: 
-          linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .7)), 
           url(../img/hero3.jpg) center no-repeat;
         background-size: cover;
         background-attachment: fixed;

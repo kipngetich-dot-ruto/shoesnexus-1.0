@@ -8,6 +8,14 @@
     background-color: #ffffff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     margin: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+.sticky_nav{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
 }
 .mobile_nav{
     flex-direction: column;

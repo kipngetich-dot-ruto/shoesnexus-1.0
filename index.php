@@ -8,5 +8,6 @@ require_once "./partials/navbar.php";
         <?php require_once "./partials/hero.php"?>
         <?php require_once "./partials/productCard.php"?>
     </div>
-</main>
+
 <?php include_once "includes/footer.php"?>
+</main>

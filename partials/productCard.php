@@ -207,7 +207,7 @@
                 <div class="item_image_brand">
                     <img src="img/hero2.jpg" alt="">
                 </div>
-                <div class="grid_item_container">
+                <div class="grid_item_container_brand">
                     <div class="item_brand_name">
                         Addidas
                     </div>
